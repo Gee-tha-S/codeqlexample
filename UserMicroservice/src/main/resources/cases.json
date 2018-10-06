@@ -1,0 +1,560 @@
+{
+	"registration": {
+		"request": {
+			"url": "/user/register",
+			"headers": {
+				
+			},
+			"body": {
+				"emailId": "mnsravanthi55@gmail.com",
+				"password": "Sowji@123",
+				"phoneNumber": "9100289102",
+				"userName": "sowjanya"
+			},
+			"method": "POST"
+		},
+		"response": {
+			"status": "OK",
+			"headers": {
+				
+			},
+			"body": {
+				"status": 200,
+				"message": "Registration Successful!!"
+			}
+		}
+	},
+	"userregsad1": {
+		"request": {
+			"url": "/user/register",
+			"headers": {
+				
+			},
+			"body": {
+				"emailId": "msowjanya670@gmail.com",
+				"password": "Sowji@123",
+				"phoneNumber": "9100289102",
+				"userName": ""
+			},
+			"method": "POST"
+		},
+		"response": {
+			"status": "BAD_REQUEST",
+			"headers": {
+				
+			},
+			"body": {
+				"status": 400,
+				"message": "UserName Not valid"
+			}
+		}
+	},
+	"userRegsad4": {
+		"request": {
+			"url": "/user/register",
+			"headers": {
+				
+			},
+			"body": {
+				"emailId": "",
+				"password": "Sowji@123",
+				"phoneNumber": "9100289102",
+				"userName": "sowji"
+			},
+			"method": "POST"
+		},
+		"response": {
+			"status": "BAD_REQUEST",
+			"headers": {
+				
+			},
+			"body": {
+				"status": 400,
+				"message": "emailid not valid"
+			}
+		}
+	},
+	"userRegsad5": {
+		"request": {
+			"url": "/user/register",
+			"headers": {
+				
+			},
+			"body": {
+				"emailId": "msowjanya670@gmail.com",
+				"password": "Sowji@123",
+				"phoneNumber": "",
+				"userName": "sowjanya"
+			},
+			"method": "POST"
+		},
+		"response": {
+			"status": "BAD_REQUEST",
+			"headers": {
+				
+			},
+			"body": {
+				"status": 400,
+				"message": "mobile number not valid"
+			}
+		}
+	},
+	"userRegsad6": {
+		"request": {
+			"url": "/user/register",
+			"headers": {
+				
+			},
+			"body": {
+				"emailId": "msowjanya670@gmail.com",
+				"password": "",
+				"phoneNumber": "9802293833",
+				"userName": "sowjanya"
+			},
+			"method": "POST"
+		},
+		"response": {
+			"status": "BAD_REQUEST",
+			"headers": {
+				
+			},
+			"body": {
+				"status": 400,
+				"message": "password not valid"
+			}
+		}
+	},
+	"userRegsad9": {
+		"request": {
+			"url": "/user/register",
+			"headers": {
+				
+			},
+			"body": {
+				"emailId": "msowjanya55@gmail.com",
+				"password": "So@12",
+				"phoneNumber": "9802293833",
+				"userName": "sowjanya"
+			},
+			"method": "POST"
+		},
+		"response": {
+			"status": "BAD_REQUEST",
+			"headers": {
+				
+			},
+			"body": {
+				"status": 400,
+				"message": "password not valid"
+			}
+		}
+	},
+	"userRegsad10": {
+		"request": {
+			"url": "/user/register",
+			"headers": {
+				
+			},
+			"body": {
+				"emailId": "msowjanya5@gmail.com",
+				"password": "Sowjanya@12345",
+				"phoneNumber": "9802293833",
+				"userName": "sowjanya"
+			},
+			"method": "POST"
+		},
+		"response": {
+			"status": "BAD_REQUEST",
+			"headers": {
+				
+			},
+			"body": {
+				"status": 400,
+				"message": "password not valid"
+			}
+		}
+	},
+	"userRegsad11": {
+		"request": {
+			"url": "/user/register",
+			"headers": {
+				
+			},
+			"body": {
+				"emailId": "msowjanya5@gmail.com",
+				"password": "12345233",
+				"phoneNumber": "9802293833",
+				"userName": "sowjanya"
+			},
+			"method": "POST"
+		},
+		"response": {
+			"status": "BAD_REQUEST",
+			"headers": {
+				
+			},
+			"body": {
+				"status": 400,
+				"message": "password not valid"
+			}
+		}
+	},
+	"userRegsad12": {
+		"request": {
+			"url": "/user/register",
+			"headers": {
+				
+			},
+			"body": {
+				"emailId": "msowjanya5@gmail.com",
+				"password": "sowji@12",
+				"phoneNumber": "9802293833",
+				"userName": "sowjanya"
+			},
+			"method": "POST"
+		},
+		"response": {
+			"status": "BAD_REQUEST",
+			"headers": {
+				
+			},
+			"body": {
+				"status": 400,
+				"message": "password not valid"
+			}
+		}
+	},
+	"userRegsad13": {
+		"request": {
+			"url": "/user/register",
+			"headers": {
+				
+			},
+			"body": {
+				"emailId": "msowjanya5@gmail.com",
+				"password": "Sowji@123",
+				"phoneNumber": "98ss293833",
+				"userName": "sowjanya"
+			},
+			"method": "POST"
+		},
+		"response": {
+			"status": "BAD_REQUEST",
+			"headers": {
+				
+			},
+			"body": {
+				"status": 400,
+				"message": "mobile number not valid"
+			}
+		}
+	},
+	"userRegsad14": {
+		"request": {
+			"url": "/user/register",
+			"headers": {
+				
+			},
+			"body": {
+				"emailId": "msowjanya2014gmail.com",
+				"password": "Sowji@123",
+				"phoneNumber": "9812293833",
+				"userName": "sowjanya"
+			},
+			"method": "POST"
+		},
+		"response": {
+			"status": "BAD_REQUEST",
+			"headers": {
+				
+			},
+			"body": {
+				"status": 400,
+				"message": "emailid not valid"
+			}
+		}
+	},
+	"userRegsad15": {
+		"request": {
+			"url": "/user/register",
+			"headers": {
+				
+			},
+			"body": {
+				"emailId": "msowjanya2014@gmail.com",
+				"password": "Sowji@123",
+				"phoneNumber": "9812293833",
+				"userName": "sowjanya"
+			},
+			"method": "POST"
+		},
+		"response": {
+			"status": "BAD_REQUEST",
+			"headers": {
+				
+			},
+			"body": {
+				"status": 400,
+				"message": "user with this emailId already  exists"
+			}
+		}
+	},
+	"userRegsad16": {
+		"request": {
+			"url": "/user/register",
+			"headers": {
+				
+			},
+			"body": {
+				"emailId": "msowjanya670@gmail.com",
+				"password": "Sowji@123",
+				"phoneNumber": "9100289102",
+				"userName": "so"
+			},
+			"method": "POST"
+		},
+		"response": {
+			"status": "BAD_REQUEST",
+			"headers": {
+				
+			},
+			"body": {
+				"status": 400,
+				"message": "UserName Not valid"
+			}
+		}
+	},
+	"userRegsad17": {
+		"request": {
+			"url": "/user/register",
+			"headers": {
+				
+			},
+			"body": {
+				"emailId": "msowjanya670@gmail.com",
+				"password": "Sowji@123",
+				"phoneNumber": "9100289102",
+				"userName": "ksjadkjasodfkjweoasdczsddfe"
+			},
+			"method": "POST"
+		},
+		"response": {
+			"status": "BAD_REQUEST",
+			"headers": {
+				
+			},
+			"body": {
+				"status": 400,
+				"message": "UserName Not valid"
+			}
+		}
+	},
+	"login": {
+		"request": {
+			"url": "/user/login",
+			"headers": {
+				
+			},
+			"body": {
+				"emailId": "msowjanya2014@gmail.com",
+				"password": "Sowji@123"
+			},
+			"method": "POST"
+		},
+		"response": {
+			"status": "OK",
+			"headers": {
+				
+			},
+			"body": {
+				"status": 200,
+				"message": "logged in successfully"
+			}
+		}
+	},
+	"loginsad": {
+		"request": {
+			"url": "/user/login",
+			"headers": {
+				
+			},
+			"body": {
+				"emailId": "msowjanya2014@gmail.com",
+				"password": "Sowj@123"
+			},
+			"method": "POST"
+		},
+		"response": {
+			"status": "BAD_REQUEST",
+			"headers": {
+				
+			},
+			"body": {
+				"status": 400,
+				"message": "incorrect details"
+			}
+		}
+	},
+	"loginsad7": {
+		"request": {
+			"url": "/user/login",
+			"headers": {
+				
+			},
+			"body": {
+				"emailId": "msowjanya2@gmail.com",
+				"password": "Sowji@123"
+			},
+			"method": "POST"
+		},
+		"response": {
+			"status": "BAD_REQUEST",
+			"headers": {
+				
+			},
+			"body": {
+				"status": 400,
+				"message": "user with this email id does not exist"
+			}
+		}
+	},
+	"loginsad3": {
+		"request": {
+			"url": "/user/login",
+			"headers": {
+				
+			},
+			"body": {
+				"emailId": "",
+				"password": ""
+			},
+			"method": "POST"
+		},
+		"response": {
+			"status": "BAD_REQUEST",
+			"headers": {
+				
+			},
+			"body": {
+				"status": 400,
+				"message": "emailId should not be blank"
+			}
+		}
+	},
+	"loginsad5": {
+		"request": {
+			"url": "/user/login",
+			"headers": {
+				
+			},
+			"body": {
+				"emailId": "msowjanya2014@gmail.com",
+				"password": ""
+			},
+			"method": "POST"
+		},
+		"response": {
+			"status": "BAD_REQUEST",
+			"headers": {
+				
+			},
+			"body": {
+				"status": 400,
+				"message": "password should not be blank"
+			}
+		}
+	},
+	"activateaccount": {
+		"request": {
+			"url": "/user/activateaccount",
+			"headers": {
+				"jwtToken": [
+					"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyMDE4MDkyOTE0MzgyMSIsImlhdCI6MTUzODIxMjEyMSwiaXNzIjoibXNvd2phbnlhMjAxNEBnbWFpbC5jb20ifQ.syCTsL8gtKgqMqH-1vN5DCktuLX8X_vgfoVTL4uerKY"
+				]
+			},
+			"body": {
+				
+			},
+			"method": "POST"
+		},
+		"response": {
+			"status": "OK",
+			"headers": {
+				
+			},
+			"body": {
+				"status": 200,
+				"message": "account activated successfully"
+			}
+		}
+	},
+	"forgotpassword": {
+		"request": {
+			"url": "/user/forgotpassword/msowjanya2014@gmail.com",
+			"headers": {
+				
+			},
+			"body": {
+				
+			},
+			"method": "POST"
+		},
+		"response": {
+			"status": "OK",
+			"headers": {
+				
+			},
+			"body": {
+				"status": 200,
+				"message": "link to set your password has been sent successfully"
+			}
+		}
+	},
+	"resetpassword": {
+		"request": {
+			"url": "/user/resetpassword",
+			"headers": {
+				"token": [
+					"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyMDE4MDkxNDE2MzI1NiIsImlhdCI6MTUzODIwMzA2MSwiaXNzIjoibXNvd2phbnlhMjAxNEBnbWFpbC5jb20ifQ.nRrQvSRM2ktKEUNs8S4dtlV3nivVdHCueR_5LuqsQ7g"
+				]
+			},
+			"body": {
+				"newPassword": "Sowmi@123",
+				"confirmPassword": "Sowmi@123"
+			},
+			"method": "POST"
+		},
+		"response": {
+			"status": "OK",
+			"headers": {
+				
+			},
+			"body": {
+				"status": 200,
+				"message": "password changed successfully!!!"
+			}
+		}
+	},
+	"userlist": {
+		"request": {
+			"url": "/user/viewusers",
+			"headers": {
+				
+			},
+			"body": {
+				
+			},
+			"method": "GET"
+		},
+		"response": {
+			"status": "OK",
+			"headers": {
+				
+			},
+			"body": {
+				"status": 200,
+				"message": "password changed successfully!!!"
+			}
+		}
+	}
+}
